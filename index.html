@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChallengeAlura</title>
+    <link rel="stylesheet" href="/css/style.css">
+    
+</head>
+<body>
+    <header class="header">
+        <div>
+            <img src="/img/Logo.png" alt="LogoAlura">
+        </div>
+    </header>
+    <main>
+        <div class="main">
+            <div class="left">
+                <textarea id="ingresaTexto" class="ingresaTexto" placeholder="ingresa texto aqui"></textarea>
+                <div class="left_foot">
+                    <img class="exclamacion" src="img/Icono_exclamacion.png" alt="iconoDeExclamacion ">
+                    <span> Solo letras minusculas y sin acentos</span>
+                    <div>
+                        <button id="botonEncriptar" class="encriptar">Encriptar</button>
+                        <button id="botonDesencriptar" class="desencriptar">Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+            <div id="Right">
+                <img id="imagenBusqueda" class="muñeco" src="/img/Muñeco.png" alt="imagen">
+                <textarea id="textoEncriptado" class="texto_Encriptado" placeholder="Ningun mensaje fue encontrado"></textarea>
+                <p id="infoR" class="rinfo"> Ingresa el texto que desees encriptar o desencriptar </p>
+                <button id="Copiar" class="boton_Copiar"> Copiar </button>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Creado por <em>Carlos Puga S.</em></p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
